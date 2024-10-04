@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .smallbox {
+            background-color: aqua;
+            width: 30px;
+            height: 30px;
+            margin: 10px;
+        }
+        
+        .box {
+            height: 250px;
+            background-color: yellow;
+            align-items: center;
+            display: flex;
+            flex-direction: row;
+            justify-content: end;
+        }
+        
+        .bluebox {
+            width: 300px;
+            height: 200px;
+            position: relative;
+            background-color: cyan;
+            top: 20px;
+            left: 20px;
+            padding-left: 20px;
+            padding-top: 20px;
+            text-align: justify;
+        }
+        
+        .orangebox {
+            position: absolute;
+            background-color: orange;
+            height: 100px;
+            width: 100px;
+            bottom: 0px;
+            right: 0px;
+        }
+        
+        .boxpurple {
+            position: absolute;
+            background-color: purple;
+            bottom: 0px;
+            right: 0px;
+            height: 50px;
+            width: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="smallbox">eins</div>
+        <div class="smallbox">zwei</div>
+        <div class="smallbox">drei</div>
+    </div>
+    <div class="bluebox">
+        <h1>Willkommen!</h1>
+        <div class="orangebox"></div>
+    </div>
+    <div class="boxpurple"></div>
+
+</body>
+
+</html>
