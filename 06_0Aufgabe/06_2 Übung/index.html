@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .bluebox {
+            background-color: aqua;
+            width: 200px;
+            height: 400px;
+            margin-top: 40px;
+            margin-left: 40px;
+            position: relative;
+        }
+        
+        .blackbox {
+            background-color: black;
+            position: absolute;
+            left: -8px;
+            top: -8px;
+            width: 20px;
+            height: 20px;
+        }
+        
+        .greenbox {
+            position: absolute;
+            background-color: green;
+            width: 40px;
+            height: 40px;
+            right: 0px;
+            bottom: 0px;
+        }
+        
+        .langebox {
+            position: relative;
+            background-color: yellow;
+            height: 100px;
+            margin-top: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            justify-content: space-around;
+            margin-left: 40px;
+            margin-right: 40px;
+        }
+        
+        .dreiboxen {
+            background-color: lime;
+            height: 20px;
+            width: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bluebox">
+        <div class="greenbox"></div>
+        <div class="blackbox"></div>
+
+    </div>
+
+    <div class="langebox">
+        <div class="dreiboxen"></div>
+        <div class="dreiboxen"></div>
+        <div class="dreiboxen"></div>
+    </div>
+</body>
+
+</html>
