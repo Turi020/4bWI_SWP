@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .greenbox {
+            position: relative;
+            background-color: green;
+            height: 300px;
+            width: 200px;
+            margin-left: 40px;
+            top: -400px;
+        }
+        
+        .bluebox {
+            position: relative;
+            background-color: blue;
+            height: 300px;
+            width: 200px;
+            margin-top: 40px;
+            margin-left: 240px;
+        }
+        
+        .blackbox {
+            position: absolute;
+            background-color: black;
+            height: 60px;
+            width: 60px;
+            top: 0px;
+            right: 0px;
+        }
+        
+        .orangebox {
+            position: relative;
+            background-color: beige;
+            height: 100px;
+            width: 400px;
+            margin-left: 40px;
+        }
+        
+        .graybox {
+            position: absolute;
+            background-color: gray;
+            height: 250px;
+            width: 250px;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            left: 0px;
+            bottom: 0px;
+        }
+        
+        .orangebox2 {
+            position: relative;
+            background-color: lightcoral;
+            height: 50px;
+            width: 50px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="bluebox">
+        <div class="blackbox"></div>
+    </div>
+    <div class="orangebox"></div>
+    <div class="greenbox"></div>
+
+    <div class="graybox">
+        <div class="orangebox2"></div>
+    </div>
+</body>
+
+</html>
