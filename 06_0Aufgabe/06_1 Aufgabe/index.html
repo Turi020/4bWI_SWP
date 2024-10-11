@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .purplebox {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            top: 0px;
+            right: 0px;
+            background-color: purple;
+        }
+        
+        .bluebox {
+            position: relative;
+            background-color: aqua;
+            height: 300px;
+            width: 400px;
+            margin-left: 20px;
+            margin-top: 20px;
+            margin-bottom: 50px;
+            padding-left: 20px;
+            padding-top: 20px;
+        }
+        
+        .boxsmall {
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+            background-color: orange;
+            width: 100px;
+            height: 100px;
+        }
+        
+        .yellowbox {
+            background-color: yellow;
+            height: 200px;
+            margin-top: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            justify-content: space-around;
+        }
+        
+        .box {
+            background-color: blue;
+            width: 60px;
+            height: 60px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bluebox">
+        <h1>Willkommen!</h1>
+        <ul>Eins</ul>
+        <ul>Zwei</ul>
+        <ul>Drei</ul>
+        <div class="boxsmall"></div>
+    </div>
+    <div class="purplebox"></div>
+    <div class="yellowbox">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+</body>
+
+</html>
