@@ -8,25 +8,47 @@
     <style>
         .container {
             display: flex;
-            position: relative;
-            ;
             margin: 100px;
-            justify-content: center;
-            align-items: center;
+            border: solid 2px black;
+            height: 800px;
+            width: auto;
         }
         
         .greybox {
-            position: relative;
+            border: solid 2px black;
             background-color: grey;
-            height: 800px;
-            width: 800px;
+            grid-auto-rows: minmax(100px, 25%);
+            grid-template-columns: 25% 25% 25%;
+            row-gap: 5%;
+            column-gap: 5%;
+            width: 50%;
+            display: grid;
+            justify-content: space-evenly;
+        }
+        
+        .smallbox {
+            height: 150px;
+            margin: 30px;
+            width: 150px;
+            background-color: lightgreen;
         }
         
         .lightbox {
-            position: relative;
+            padding: 50px;
+            border: solid 2px black;
             background-color: lightblue;
-            height: 800px;
-            width: 800px;
+            width: 50%;
+            display: grid;
+            justify-content: space-evenly;
+            grid-auto-rows: minmax(200px 25%);
+            grid-template-columns: 40% 40%;
+            column-gap: 5%;
+            row-gap: 5%;
+        }
+        
+        .bigbox {
+            background-color: green;
+            border: solid 2px black;
         }
     </style>
 </head>
@@ -34,17 +56,17 @@
 <body>
     <div class="container">
         <div class="greybox">
-            <div class="smallbox1"></div>
-            <div class="smallbox2"></div>
-            <div class="smallbox3"></div>
-            <div class="smallbox4"></div>
-            <div class="smallbox5"></div>
-            <div class="smallbox6"></div>
+            <div class="smallbox"></div>
+            <div class="smallbox"></div>
+            <div class="smallbox"></div>
+            <div class="smallbox"></div>
+            <div class="smallbox"></div>
+            <div class="smallbox"></div>
         </div>
         <div class="lightbox">
-            <div class="bigbox1"></div>
-            <div class="bigbox2"></div>
-            <div class="bigbox3"></div>
+            <div class="bigbox"></div>
+            <div class="bigbox"></div>
+            <div class="bigbox"></div>
         </div>
 
     </div>
