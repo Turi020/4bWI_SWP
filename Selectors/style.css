@@ -1,0 +1,23 @@
+/* ELEMENT Selektor */
+
+div {
+    background-color: yellow;
+}
+
+
+/* id selektor */
+
+#header {
+    font-size: 2rem;
+}
+
+
+/*Klassenselektor*/
+
+.subtitle {
+    color: cyan;
+}
+
+#text p {
+    background-color: purple;
+}
