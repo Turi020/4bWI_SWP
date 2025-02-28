@@ -1,4 +1,4 @@
-loadDataFromAPI;
+loadDataFromAPI();
 
 
 document.getElementById("btnLoad").addEventListener("click", function() {
