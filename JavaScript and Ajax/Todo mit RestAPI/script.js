@@ -14,7 +14,7 @@ function loadDataFromAPI() {
             let html = [];
 
             json.forEach((todo) => {
-                html.push("<div><div>" + todo.title + "</div><img width='80px' src ='" + todo.image + "?id=" + Math.random() + "'/><div>----</div></div>");
+                html.push("<div><div>" + todo.title + "</div><img width='79px' src ='" + todo.image + "?id=" + Math.random() + "'/><div>----</div></div>");
 
             });
             document.getElementById("content").innerHTML = html.join("");
